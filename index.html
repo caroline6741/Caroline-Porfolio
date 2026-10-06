@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Caroline's portfolio — a student exploring science, math, and playful digital projects." />
+    <title>Caroline — Science, math & making</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="hover-fixes.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Caroline home">C<span>.</span></a>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="https://github.com/caroline6741" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+      <button class="menu-button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="main-nav">Menu</button>
+    </header>
+
+    <main id="top">
+      <section class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Student · curious by default</p>
+          <h1>I like asking <em>why</em> — then building the answer.</h1>
+          <p class="hero-intro">I’m Caroline, a student exploring the overlap of science, math, and making things for the web.</p>
+          <div class="hero-actions">
+            <a class="button button-dark" href="#work">See my work <span>↓</span></a>
+            <a class="text-link" href="https://github.com/caroline6741" target="_blank" rel="noreferrer">Visit GitHub <span>↗</span></a>
+          </div>
+        </div>
+        <div class="hero-art" aria-label="Abstract orbital illustration" role="img">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="orbit orbit-three"></div>
+          <div class="sun">C</div>
+          <span class="star star-a">+</span><span class="star star-b">✦</span><span class="star star-c">·</span>
+          <p class="art-label">field notes / 01<br /><strong>stay curious</strong></p>
+        </div>
+      </section>
+
+      <div class="ticker" aria-hidden="true"><span>SCIENCE</span><b>✳</b><span>MATH</span><b>✳</b><span>CREATIVE CODE</span><b>✳</b><span>QUESTIONS → IDEAS</span><b>✳</b><span>SCIENCE</span><b>✳</b><span>MATH</span></div>
+
+      <section class="work section-shell" id="work">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work / 02 projects</p>
+          <h2>Small experiments,<br /><em>big questions.</em></h2>
+          <p class="section-note">A couple of things I’ve made while learning how ideas become interactive.</p>
+        </div>
+        <div class="project-grid">
+          <a class="project-card card-yellow" href="https://caroline6741.github.io/Blast-Rivals/" target="_blank" rel="noreferrer">
+            <div class="project-top"><span class="project-number">01 / GAME</span><span class="arrow">↗</span></div>
+            <div class="project-graphic rivals-graphic"><div class="target-ring"></div><div class="crosshair">+</div><span>BLAST!</span></div>
+            <div class="project-details"><h3>Blast Rivals</h3><p>A fast-paced game of timing, aim, and a little bit of chaos.</p><span class="card-link">Play project ↗</span></div>
+          </a>
+          <a class="project-card card-blue" href="https://caroline6741.github.io/blastyourduck/" target="_blank" rel="noreferrer">
+            <div class="project-top"><span class="project-number">02 / GAME</span><span class="arrow">↗</span></div>
+            <div class="project-graphic duck-graphic"><div class="duck-body">◖<span>•</span></div><div class="water-line"></div><span class="duck-word">QUACK!</span></div>
+            <div class="project-details"><h3>Blast your Duck</h3><p>A playful browser experiment with an unexpectedly explosive duck.</p><span class="card-link">Play project ↗</span></div>
+          </a>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about">
+        <div class="about-mark"><span>∑</span><small>curiosity<br />in motion</small></div>
+        <div class="about-copy"><p class="eyebrow">A little about me</p><h2>Learning in public,<br /><em>one project at a time.</em></h2><p>I’m interested in how things work — from the logic behind a math problem to the tiny details that make a digital experience feel fun. My projects are where I test ideas, learn new skills, and turn questions into something you can click, play, or explore.</p><div class="interest-list"><span>Mathematics</span><span>Science</span><span>Creative coding</span><span>Problem solving</span></div></div>
+      </section>
+
+      <section class="contact section-shell" id="contact">
+        <p class="eyebrow">Have a question or opportunity?</p><h2>Let’s make something<br /><em>worth exploring.</em></h2>
+        <div class="contact-row"><a class="button button-yellow" href="mailto:hello@example.com">Say hello <span>↗</span></a><div class="social-links"><a href="https://github.com/caroline6741" target="_blank" rel="noreferrer">GitHub / caroline6741 ↗</a><a href="#" onclick="return false">LinkedIn / coming soon ↗</a></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell"><span>© <span id="year"></span> Caroline</span><span>Built with curiosity <span class="footer-star">✳</span></span><a href="#top">Back to top ↑</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
